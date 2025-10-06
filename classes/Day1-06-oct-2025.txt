@@ -1,0 +1,82 @@
+Devops and Deployment and Testing of MLOps (Machine Learning)Ops
+
+Devops vs MLOps
+
+ML Project
+1.Problem statement 
+2.Define scope of project
+3.Gather data
+4. Data Analysis
+regression,classification,clustering
+pandas,numpy,matplotlib/seaborn
+4. Model building
+input/output
+scikit-learning
+build the model - training
+fine tune model
+testing
+
+iterations
+no 1 - 
+no 2 -
+--
+no n - 
+
+5. Develop end to end application
+pickle file
+wrapper - api
+develop UI
+Deployment - server - docker/dockerhub/githubactions
+Monitor
+finetune model
+
+CI-CD
+Continous Integration
+Continous delivery/deployment
+
+
+Data Analysts
+ML Engineer
+Data Scientist
+
+DEVOPS
+git/GitHub
+githubactions - ci-cd
+Jenkins
+docker/dockerhub
+aws/azure
+MLOPS
+MLFlow
+Zenflow
+Airflow
+
+
+Hands on session
+
+1. Create a simple python flask api
+2. Test api using postman
+3. deploy this on docker
+steps
+1. create devops->programs folder
+2. Open folder in visual studio code
+3. create virtual environment
+python -m venv venv
+4. install flask
+pip install flask
+5. develop a simple api
+6. test using postman
+
+7. check whether docker is installed
+if not download and install docker desktop
+8.create a docker file
+9. build an image
+docker build -t flaskapp .
+10. docker run -p 5000:5000 flaskapp
+11. docker run -p 5001:5000 -name myflaskapp1 flaskapp 
+
+docker common commands
+1. docker images
+2. docker ps
+3. docker ps -a
+4. docker exec -it myflaskapp1 /bin/bash
+
