@@ -99,3 +99,17 @@ docker run -d -p 8090:5000 --name flaskdockerhub raghuprasadkonandur/flaskapp
 using python and push it to docker
 any publicly available dataset
 
+3. CI - CD using githubactions
+
+Steps:
+
+
+1. git clone https://github.com/raghuprasadks/cicddemonew.git
+2. cd cicddemonew
+3. delete .git folder 
+4. Create a new GitHub repository cicdgithubactions
+configuration to map the docker hub credentials in
+github
+
+
+
