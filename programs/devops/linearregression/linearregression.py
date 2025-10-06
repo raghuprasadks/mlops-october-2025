@@ -3,6 +3,7 @@ from sklearn.datasets import fetch_california_housing
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error
+import pickle
 # Load dataset
 #boston = load_boston()
 boston = fetch_california_housing()
@@ -21,3 +22,7 @@ print(f"Mean Squared Error: {mse:.2f}")
 # Display prediction for first record of X_test
 print(f"Prediction for first record of X_test: {y_pred[0]:.2f}")
 print(f"Actual value: {y_test[0]:.2f}")
+
+# Save the trained model to a pickle file
+with open("linear_model.pkl", "wb") as f:
+    pickle.dump(model, f)
