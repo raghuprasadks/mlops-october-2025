@@ -79,4 +79,23 @@ docker common commands
 2. docker ps
 3. docker ps -a
 4. docker exec -it myflaskapp1 /bin/bash
+exit
+
+https://github.com/raghuprasadks/mlops-october-2025
+https://hub.docker.com/
+signup and login
+command prompt
+docker login
+change raghuprasadkonandur with your dockerhub login credential
+docker build -t raghuprasadkonandur/flaskapp .
+docker push raghuprasadkonandur/flaskapp
+
+
+docker pull raghuprasadkonandur/flaskapp
+
+docker run -d -p 8090:5000 --name flaskdockerhub raghuprasadkonandur/flaskapp
+
+2. Create a simple linear regression machine learning model
+using python and push it to docker
+any publicly available dataset
 
