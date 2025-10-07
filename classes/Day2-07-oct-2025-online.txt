@@ -59,6 +59,27 @@ Install pip install flask
 docker build -t pythonflask .
 docker run -p 5000:5000 --name pythonflask1 pythonflask
 
+LinearRegression
+
+{
+  "features": [0.0380759, 0.05, 0.061696, 0.021872, -0.044223, -0.034821, -0.043401, -0.002592]
+}
+
+
+Sign up and login to docker hub
+
+https://hub.docker.com/
+
+docker build -t linearregression-app-new .
+
+docker build -t raghuprasadkonandur/linearregression-app-new .
+
+docker push raghuprasadkonandur/linearregression-app-new
+
+docker pull raghuprasadkonandur/linearregression-app-new
+
+
+
 
 
 
