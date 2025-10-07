@@ -18,7 +18,16 @@ React
 Steps:
 1. open VS code
 2. Co-pilot prompt
-develop a logistic regression model using publicly available dataset
+a. develop a logistic regression model using publicly available dataset
+b. test to check the prediction for 1st and 3rd dataset
+c. convert model into a pickle file
+d. create flask api to predict
+e. how to test this using postman
+f. create a streamlit application to develop ui for app.py
+g. To run  streamlit
+streamlit run <programname>
+
+
 save model into a pickle file.
 3.Create a flask api  to predict
 4. Create a UI to test this using streamlit 
