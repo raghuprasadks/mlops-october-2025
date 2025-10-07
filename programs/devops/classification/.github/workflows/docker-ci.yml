@@ -1,0 +1,88 @@
+name: CI/CD for Flask & Streamlit
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build_and_push: # Changed job name to reflect push action
+    # NOTE: Using 'ubuntu-latest' from GitHub's cloud runners is fine for building and pushing.
+    runs-on: ubuntu-latest
+
+    services:
+      # This service sets up Docker-in-Docker (dind) to execute Docker commands.
+      docker:
+        image: docker:20.10.7-dind
+        options: --privileged
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      # --- 1. Build Images ---
+
+      - name: Build Flask API image
+        # Build the image using a temporary local tag
+        run: docker build -f Dockerfile-flask -t flask-api-local .
+
+      - name: Build Streamlit UI image
+        run: docker build -f Dockerfile-streamlit -t streamlit-ui-local .
+
+      # --- 2. Login to Docker Hub ---
+
+      - name: Log in to Docker Hub
+        uses: docker/login-action@v3
+        with:
+          # Uses the secrets you configured on GitHub
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+
+      # --- 3. Tag and Push Flask API Image ---
+
+      - name: Tag and Push Flask API image
+        run: |
+          # 1. Define the full tag: <USERNAME>/<REPO_NAME>:<TAG>
+          FLASK_IMAGE="${{ secrets.DOCKERHUB_USERNAME }}/flask-api:latest"
+          
+          # 2. Apply the remote tag to the local image
+          docker tag flask-api-local $FLASK_IMAGE
+          
+          # 3. Push the image to Docker Hub
+          docker push $FLASK_IMAGE
+          echo "Pushed Flask API image: $FLASK_IMAGE"
+
+      # --- 4. Tag and Push Streamlit UI Image ---
+
+      - name: Tag and Push Streamlit UI image
+        run: |
+          # 1. Define the full tag: <USERNAME>/<REPO_NAME>:<TAG>
+          STREAMLIT_IMAGE="${{ secrets.DOCKERHUB_USERNAME }}/streamlit-ui:latest"
+
+          # 2. Apply the remote tag to the local image
+          docker tag streamlit-ui-local $STREAMLIT_IMAGE
+
+          # 3. Push the image to Docker Hub
+          docker push $STREAMLIT_IMAGE
+          echo "Pushed Streamlit UI image: $STREAMLIT_IMAGE"
+
+      # Optional: Deploy using Docker Compose (requires self-hosted runner)
+      # This step remains commented out as it requires a self-hosted environment.
+      # - name: Deploy with Docker Compose
+      #   run: docker-compose up -d
+      # Optional : on local docker
+      #docker network create my_ml_network
+      #docker run -d \
+      #--name ml_api \
+      #--network my_ml_network \
+      #<YOUR_USERNAME>/flask-api:latest
+
+      #docker run -d \
+      #--name ml_ui \
+      #-p 8501:8501 \
+      #--network my_ml_network \
+      #<YOUR_USERNAME>/streamlit-ui:latest
