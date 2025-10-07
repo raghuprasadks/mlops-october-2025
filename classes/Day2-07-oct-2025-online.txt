@@ -1,0 +1,64 @@
+DEVOPS and MLOPS
+ML Project
+1. Problem statement
+2. Data gathering
+3. Data Analysis
+4. Model Building
+training,testing,tuning
+5. Data Engineering
+API on top the model
+UI to access API
+Web Application,Mobile Application
+Chatbot
+unit testing
+testing team 
+Deployment/Operations
+Code,build executable,deploy on server
+
+DEV - Development
+windows,libraries,files
+OPS - Operations
+Linux os
+
+CI-CD
+Continuous Integration
+Continuous Delivery
+
+MLOPS
+multiple iterations
+4. Model Building
+training,testing,tuning
+metrics
+iteration 1 - record output - model1
+iteration 2 - record output - model2
+stored 
+best model
+api
+MLOps
+MLFlow
+Azure
+
+End to end applications
+1. Linear regression
+2. API - Flask
+3. UI - Streamlit
+
+Software - docker/dockerhub
+git/GitHub/githubactions
+vs code, python
+
+Steps :
+1. Clone the git repository
+2. programs-devops
+3. Create a virtual environment
+python -m venv venv
+activated the virtual environment
+.\venv\Scripts\activate
+Install pip install flask
+
+docker build -t pythonflask .
+docker run -p 5000:5000 --name pythonflask1 pythonflask
+
+
+
+
