@@ -102,14 +102,14 @@ any publicly available dataset
 3. CI - CD using githubactions
 
 Steps:
-
-
 1. git clone https://github.com/raghuprasadks/cicddemonew.git
 2. cd cicddemonew
 3. delete .git folder 
 4. Create a new GitHub repository 
 cicdgithubactionsaiml
 configuration to map the docker hub 
+Settings->security-Secrete and variables->actions->New Repository Secrete 
+
 credentials in
 GitHub
 DOCKERHUB_USERNAME
@@ -125,6 +125,12 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/raghuprasadks/cicdgithubactionsaiml.git
 git push -u origin main
+
+Assignment
+create ci-cd pipe line using github actions for linear regression programs..
+
+
+
 
 
 

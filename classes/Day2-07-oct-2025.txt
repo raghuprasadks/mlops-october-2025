@@ -1,0 +1,24 @@
+Agenda:
+Recap
+1. Introduction to Devops
+2. Introduction to MLops
+3. Developing sample python flask application
+and deployed on Docker/Dockerhub
+4. Developed Linear Regression Model,
+created API,deployed on docker/dockerhub
+5. Deployed using GitHub actions
+CI-CD pipe line
+
+Todo list
+1. Develop end to end ML application
+for classification problem. 
+UI to access the classification model
+Streamlit using python
+React
+Steps:
+1. open VS code
+2. Co-pilot prompt
+develop a logistic regression model using publicly available dataset
+save model into a pickle file.
+3.Create a flask api  to predict
+4. Create a UI to test this using streamlit 
