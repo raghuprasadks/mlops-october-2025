@@ -78,6 +78,24 @@ docker push raghuprasadkonandur/linearregression-app-new
 
 docker pull raghuprasadkonandur/linearregression-app-new
 
+docker run -p 5000:5000 --name sonallinearregression sonals694/linearregression
+
+
+CI - CD - githubactions
+
+GitHub repository
+whenever you push the code..
+create docker image and push to docker hub
+
+
+clone https://github.com/raghuprasadks/cicdgithubactionsaiml
+
+git clone https://github.com/raghuprasadks/cicdgithubactionsaiml
+
+
+
+
+
 
 
 

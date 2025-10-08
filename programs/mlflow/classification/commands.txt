@@ -1,0 +1,25 @@
+1)pip install mlflow scikit-learn pandas flask streamlit requests
+
+2)In another terminal start the mlflow server 
+
+mlflow ui
+
+3)run 1-train.py
+
+python 1-train.py
+
+4)run 2-app.py
+
+python 2-app.py
+
+5)test it in postman
+
+post -> raw -> 
+
+{
+  "features": [6.0, 2.9, 4.5, 1.5]
+}
+
+6)In the third terminal run streamlit 
+
+streamlit 3-streamlit.py

@@ -109,7 +109,6 @@ Steps:
 cicdgithubactionsaiml
 configuration to map the docker hub 
 Settings->security-Secrete and variables->actions->New Repository Secrete 
-
 credentials in
 GitHub
 DOCKERHUB_USERNAME
