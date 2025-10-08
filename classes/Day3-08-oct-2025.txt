@@ -1,0 +1,32 @@
+1. MLFlow
+MLOPS
+tracks your model building
+
+Experimentation
+1 - features - training - record matrix
+2 - optimization - different models - record matrix
+3 - optimization
+
+Model - api
+end to end application development
+
+https://kaushalya.tech/
+git
+
+
+Steps:
+1. clone the git
+2. open mlflow folder in visual studio code
+3. Create a virtual environment 
+python -m venv venv
+4. Activate virtual environment
+.\venv\Scripts\activate
+5. Install required libraries
+pip install flask mlflow scikit-learn streamlit requests
+6. cd linearregression
+7. mlflow ui
+8. Open another window
+7. activate virtual environment
+8. execute 1-train.py
+
+
