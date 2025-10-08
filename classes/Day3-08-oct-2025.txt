@@ -47,6 +47,9 @@ click on predict button
 Assignment:
 Run classification
 
+Run clustering
+
+
 
 
 
