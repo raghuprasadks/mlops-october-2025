@@ -28,5 +28,26 @@ pip install flask mlflow scikit-learn streamlit requests
 8. Open another window
 7. activate virtual environment
 8. execute 1-train.py
+9. execute 2-app.py
+open another terminal
+cd linearregression
+activate virtual environment
+python 2-app.py
+test using postman
+10 streamlit - ui development - server side programming
+
+open another terminal
+cd linearregression
+activate virtual environment
+streamlit run 3-app.py
+it opens UI
+Enter the required input
+click on predict button
+
+Assignment:
+Run classification
+
+
+
 
 
