@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/565488418564278384/0954159d845f4594b138d7e93472569f/artifacts
+end_time: 1760008156113
+entry_point_name: ''
+experiment_id: '565488418564278384'
+lifecycle_stage: active
+run_id: 0954159d845f4594b138d7e93472569f
+run_name: vaunted-toad-960
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760008152021
+status: 3
+tags: []
+user_id: lenovo

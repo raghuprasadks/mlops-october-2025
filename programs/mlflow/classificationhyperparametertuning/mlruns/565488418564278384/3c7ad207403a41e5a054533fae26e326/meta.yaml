@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/565488418564278384/3c7ad207403a41e5a054533fae26e326/artifacts
+end_time: 1760008070466
+entry_point_name: ''
+experiment_id: '565488418564278384'
+lifecycle_stage: active
+run_id: 3c7ad207403a41e5a054533fae26e326
+run_name: rare-ram-915
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760008065880
+status: 3
+tags: []
+user_id: lenovo

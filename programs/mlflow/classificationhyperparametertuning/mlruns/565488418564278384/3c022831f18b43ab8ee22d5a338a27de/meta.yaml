@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/565488418564278384/3c022831f18b43ab8ee22d5a338a27de/artifacts
+end_time: 1760008194104
+entry_point_name: ''
+experiment_id: '565488418564278384'
+lifecycle_stage: active
+run_id: 3c022831f18b43ab8ee22d5a338a27de
+run_name: whimsical-ape-652
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760008189878
+status: 3
+tags: []
+user_id: lenovo

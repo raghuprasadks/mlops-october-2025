@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/565488418564278384/e66fd5a5861940e48ca89955005c5414/artifacts
+end_time: 1760008172855
+entry_point_name: ''
+experiment_id: '565488418564278384'
+lifecycle_stage: active
+run_id: e66fd5a5861940e48ca89955005c5414
+run_name: intrigued-turtle-920
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760008168609
+status: 3
+tags: []
+user_id: lenovo

@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/565488418564278384/8d06b3ec8dd0476c97ef1cddb50f7eb2/artifacts
+end_time: 1760008164378
+entry_point_name: ''
+experiment_id: '565488418564278384'
+lifecycle_stage: active
+run_id: 8d06b3ec8dd0476c97ef1cddb50f7eb2
+run_name: caring-stoat-234
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760008160381
+status: 3
+tags: []
+user_id: lenovo

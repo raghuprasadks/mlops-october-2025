@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/kaushalya/consultancy/nhce/2025/nhce/aiml/mlops/workshop/programs/mlflow/regressionhyperparameter/mlruns/323967091635434333/abdb0133b0db458289c7d228f7b70a07/artifacts
+end_time: 1760009799718
+entry_point_name: ''
+experiment_id: '323967091635434333'
+lifecycle_stage: active
+run_id: abdb0133b0db458289c7d228f7b70a07
+run_name: Ridge_alpha_1.0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760009795917
+status: 3
+tags: []
+user_id: lenovo

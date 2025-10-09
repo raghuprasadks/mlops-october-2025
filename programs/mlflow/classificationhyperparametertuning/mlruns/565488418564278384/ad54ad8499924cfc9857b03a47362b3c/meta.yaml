@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/565488418564278384/ad54ad8499924cfc9857b03a47362b3c/artifacts
+end_time: 1760008083636
+entry_point_name: ''
+experiment_id: '565488418564278384'
+lifecycle_stage: active
+run_id: ad54ad8499924cfc9857b03a47362b3c
+run_name: painted-stork-448
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760008079225
+status: 3
+tags: []
+user_id: lenovo

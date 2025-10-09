@@ -1,0 +1,10 @@
+artifact_location: file:///D:/kaushalya/consultancy/nhce/2025/nhce/aiml/mlops/workshop/programs/mlflow/regressionhyperparameter/mlruns/323967091635434333/models/m-840854932a424bc584d3e0376a5f1939/artifacts
+creation_timestamp: 1760009796021
+experiment_id: '323967091635434333'
+last_updated_timestamp: 1760009799664
+model_id: m-840854932a424bc584d3e0376a5f1939
+model_type: null
+name: model
+source_run_id: abdb0133b0db458289c7d228f7b70a07
+status: 2
+status_message: null

@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/565488418564278384/69f3eac23461453eafc201a192e12a6e/artifacts
+end_time: 1760008113695
+entry_point_name: ''
+experiment_id: '565488418564278384'
+lifecycle_stage: active
+run_id: 69f3eac23461453eafc201a192e12a6e
+run_name: dashing-mink-65
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760008109471
+status: 3
+tags: []
+user_id: lenovo

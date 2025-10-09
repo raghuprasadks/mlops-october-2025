@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/565488418564278384/bbbb083e58e148cb8ddac02bb37edc51/artifacts
+end_time: 1760008096596
+entry_point_name: ''
+experiment_id: '565488418564278384'
+lifecycle_stage: active
+run_id: bbbb083e58e148cb8ddac02bb37edc51
+run_name: nimble-chimp-266
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760008092290
+status: 3
+tags: []
+user_id: lenovo

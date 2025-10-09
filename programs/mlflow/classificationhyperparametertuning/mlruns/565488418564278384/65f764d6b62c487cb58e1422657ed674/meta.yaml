@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/565488418564278384/65f764d6b62c487cb58e1422657ed674/artifacts
+end_time: 1760008226475
+entry_point_name: ''
+experiment_id: '565488418564278384'
+lifecycle_stage: active
+run_id: 65f764d6b62c487cb58e1422657ed674
+run_name: orderly-dove-662
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760008222167
+status: 3
+tags: []
+user_id: lenovo

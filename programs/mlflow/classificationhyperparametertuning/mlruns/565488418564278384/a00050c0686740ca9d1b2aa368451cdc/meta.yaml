@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/565488418564278384/a00050c0686740ca9d1b2aa368451cdc/artifacts
+end_time: 1760008212926
+entry_point_name: ''
+experiment_id: '565488418564278384'
+lifecycle_stage: active
+run_id: a00050c0686740ca9d1b2aa368451cdc
+run_name: polite-finch-241
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760008202692
+status: 3
+tags: []
+user_id: lenovo

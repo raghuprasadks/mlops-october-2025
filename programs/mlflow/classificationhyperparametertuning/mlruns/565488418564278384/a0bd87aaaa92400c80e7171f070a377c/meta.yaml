@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/565488418564278384/a0bd87aaaa92400c80e7171f070a377c/artifacts
+end_time: 1760008198512
+entry_point_name: ''
+experiment_id: '565488418564278384'
+lifecycle_stage: active
+run_id: a0bd87aaaa92400c80e7171f070a377c
+run_name: painted-bird-440
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760008194140
+status: 3
+tags: []
+user_id: lenovo

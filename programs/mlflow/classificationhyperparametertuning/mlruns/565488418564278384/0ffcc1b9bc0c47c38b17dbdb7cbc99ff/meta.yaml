@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/565488418564278384/0ffcc1b9bc0c47c38b17dbdb7cbc99ff/artifacts
+end_time: 1760008135366
+entry_point_name: ''
+experiment_id: '565488418564278384'
+lifecycle_stage: active
+run_id: 0ffcc1b9bc0c47c38b17dbdb7cbc99ff
+run_name: glamorous-yak-127
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760008131022
+status: 3
+tags: []
+user_id: lenovo

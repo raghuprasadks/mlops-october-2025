@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/565488418564278384/b1bc053bc20f43378538644ea22f88d4/artifacts
+end_time: 1760008139547
+entry_point_name: ''
+experiment_id: '565488418564278384'
+lifecycle_stage: active
+run_id: b1bc053bc20f43378538644ea22f88d4
+run_name: chill-sow-174
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760008135402
+status: 3
+tags: []
+user_id: lenovo

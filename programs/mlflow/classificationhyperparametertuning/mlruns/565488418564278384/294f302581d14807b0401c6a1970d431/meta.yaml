@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/565488418564278384/294f302581d14807b0401c6a1970d431/artifacts
+end_time: 1760008021930
+entry_point_name: ''
+experiment_id: '565488418564278384'
+lifecycle_stage: active
+run_id: 294f302581d14807b0401c6a1970d431
+run_name: salty-mink-522
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760008010701
+status: 3
+tags: []
+user_id: lenovo

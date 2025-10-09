@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/565488418564278384/9683584561ff43c6b722e73d3ac28110/artifacts
+end_time: 1760008177035
+entry_point_name: ''
+experiment_id: '565488418564278384'
+lifecycle_stage: active
+run_id: 9683584561ff43c6b722e73d3ac28110
+run_name: chill-worm-117
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760008172891
+status: 3
+tags: []
+user_id: lenovo
