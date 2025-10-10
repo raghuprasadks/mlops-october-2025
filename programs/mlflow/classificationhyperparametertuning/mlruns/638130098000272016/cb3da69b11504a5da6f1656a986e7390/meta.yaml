@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/638130098000272016/cb3da69b11504a5da6f1656a986e7390/artifacts
+end_time: 1760017956741
+entry_point_name: ''
+experiment_id: '638130098000272016'
+lifecycle_stage: active
+run_id: cb3da69b11504a5da6f1656a986e7390
+run_name: spiffy-crane-564
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760017951455
+status: 3
+tags: []
+user_id: lenovo

@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/638130098000272016/3a18f23087d04c4ea04eb319a4dbe147/artifacts
+end_time: 1760018096856
+entry_point_name: ''
+experiment_id: '638130098000272016'
+lifecycle_stage: active
+run_id: 3a18f23087d04c4ea04eb319a4dbe147
+run_name: worried-jay-566
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760018091481
+status: 3
+tags: []
+user_id: lenovo

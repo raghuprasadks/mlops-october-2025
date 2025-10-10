@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/638130098000272016/b6e84e4527d548be80f8330380ac6e0c/artifacts
+end_time: 1760017930022
+entry_point_name: ''
+experiment_id: '638130098000272016'
+lifecycle_stage: active
+run_id: b6e84e4527d548be80f8330380ac6e0c
+run_name: righteous-ram-676
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760017921658
+status: 3
+tags: []
+user_id: lenovo

@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/638130098000272016/f1e7800fe44845feaacb14ce6dba67bf/artifacts
+end_time: 1760017967129
+entry_point_name: ''
+experiment_id: '638130098000272016'
+lifecycle_stage: active
+run_id: f1e7800fe44845feaacb14ce6dba67bf
+run_name: bedecked-lynx-678
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760017962023
+status: 3
+tags: []
+user_id: lenovo

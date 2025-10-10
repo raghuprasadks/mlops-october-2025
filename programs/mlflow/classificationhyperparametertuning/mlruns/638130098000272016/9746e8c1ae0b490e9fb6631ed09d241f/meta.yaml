@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/638130098000272016/9746e8c1ae0b490e9fb6631ed09d241f/artifacts
+end_time: 1760017910575
+entry_point_name: ''
+experiment_id: '638130098000272016'
+lifecycle_stage: active
+run_id: 9746e8c1ae0b490e9fb6631ed09d241f
+run_name: abundant-croc-668
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760017905720
+status: 3
+tags: []
+user_id: lenovo

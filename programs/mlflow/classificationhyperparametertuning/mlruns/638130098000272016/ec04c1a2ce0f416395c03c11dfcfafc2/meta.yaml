@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/638130098000272016/ec04c1a2ce0f416395c03c11dfcfafc2/artifacts
+end_time: 1760017889618
+entry_point_name: ''
+experiment_id: '638130098000272016'
+lifecycle_stage: active
+run_id: ec04c1a2ce0f416395c03c11dfcfafc2
+run_name: tasteful-bird-131
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760017884217
+status: 3
+tags: []
+user_id: lenovo

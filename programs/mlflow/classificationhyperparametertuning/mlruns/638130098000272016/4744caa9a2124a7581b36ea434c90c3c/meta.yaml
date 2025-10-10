@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/638130098000272016/4744caa9a2124a7581b36ea434c90c3c/artifacts
+end_time: 1760018046976
+entry_point_name: ''
+experiment_id: '638130098000272016'
+lifecycle_stage: active
+run_id: 4744caa9a2124a7581b36ea434c90c3c
+run_name: puzzled-roo-469
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760018041891
+status: 3
+tags: []
+user_id: lenovo

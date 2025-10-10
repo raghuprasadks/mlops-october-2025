@@ -1,0 +1,108 @@
+1)create python virtual environment and activate it
+
+python -m venv myenv
+
+2)pip install -r requirements.txt
+
+3)python train.py
+
+4)uvicorn main:app --reload
+
+5)test using 
+
+go to http://127.0.0.1:8000/docs
+
+post method 
+
+paste this in the request body  and execute
+
+{
+  "Pregnancies": 2,
+  "Glucose": 130,
+  "BloodPressure": 70,
+  "BMI": 28.5,
+  "Age": 45
+}
+
+6)To build image 
+
+docker build -t diabetes-prediction-model .
+
+7)To run the container 
+
+docker run -p 8000:8000 diabetes-prediction-model
+
+8)verify the container
+
+go to http://127.0.0.1:8000/docs
+
+post method 
+
+paste this in the request body  and execute
+
+{
+  "Pregnancies": 2,
+  "Glucose": 130,
+  "BloodPressure": 70,
+  "BMI": 28.5,
+  "Age": 45
+}
+
+9)tag the image and push to dockerhub
+
+->docker images 
+
+this will show the images, copy your images id
+
+->copy the id of the image and tag using the below command 
+
+docker tag yourimageid yourdockerhubusername/diabetes-api:latest
+
+->docker login
+
+->docker push yourdockerhubusername/diabetes-api:latest
+
+10)To install kind(Kind stands for “Kubernetes IN Docker”.It’s a tool that lets you run a full Kubernetes cluster locally, inside Docker containers)
+
+run this in powershell as admin
+
+step 1)
+Set-ExecutionPolicy Bypass -Scope Process -Force; `
+[System.Net.ServicePointManager]::SecurityProtocol = `
+[System.Net.ServicePointManager]::SecurityProtocol -bor 3072; `
+iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+
+step 2)Make sure Docker is running before using choco
+
+Start Docker Desktop manually first.
+
+In PowerShell, confirm Docker is accessible:
+
+docker --version
+
+If that works, run:
+
+choco install kind
+
+step 3)to check if kind is running 
+
+kind --version
+
+
+=>11)to create cluster 
+
+kind create cluster --name=demo-mlops
+
+kubectl get nodes
+
+kubectl apply -f k8s-deploy.yml
+
+kubectl get pods -w
+
+kubectl get svc
+
+kubectl port-forward svc/diabetes-api-service 1111:80 --address=0.0.0.0
+
+go to http://localhost:1111/docs and verify
+
+

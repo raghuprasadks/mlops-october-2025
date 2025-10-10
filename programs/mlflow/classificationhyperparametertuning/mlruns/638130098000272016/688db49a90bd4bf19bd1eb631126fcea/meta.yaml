@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/638130098000272016/688db49a90bd4bf19bd1eb631126fcea/artifacts
+end_time: 1760018067913
+entry_point_name: ''
+experiment_id: '638130098000272016'
+lifecycle_stage: active
+run_id: 688db49a90bd4bf19bd1eb631126fcea
+run_name: placid-cow-238
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760018062705
+status: 3
+tags: []
+user_id: lenovo

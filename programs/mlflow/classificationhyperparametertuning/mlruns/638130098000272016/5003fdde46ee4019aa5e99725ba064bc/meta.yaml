@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/638130098000272016/5003fdde46ee4019aa5e99725ba064bc/artifacts
+end_time: 1760018018077
+entry_point_name: ''
+experiment_id: '638130098000272016'
+lifecycle_stage: active
+run_id: 5003fdde46ee4019aa5e99725ba064bc
+run_name: abrasive-frog-206
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760018012648
+status: 3
+tags: []
+user_id: lenovo

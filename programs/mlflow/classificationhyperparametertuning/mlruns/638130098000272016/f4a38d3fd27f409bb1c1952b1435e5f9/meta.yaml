@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/638130098000272016/f4a38d3fd27f409bb1c1952b1435e5f9/artifacts
+end_time: 1760017921508
+entry_point_name: ''
+experiment_id: '638130098000272016'
+lifecycle_stage: active
+run_id: f4a38d3fd27f409bb1c1952b1435e5f9
+run_name: thoughtful-perch-701
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760017915813
+status: 3
+tags: []
+user_id: lenovo

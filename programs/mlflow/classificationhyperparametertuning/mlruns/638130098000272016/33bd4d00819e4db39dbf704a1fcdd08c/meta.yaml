@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/638130098000272016/33bd4d00819e4db39dbf704a1fcdd08c/artifacts
+end_time: 1760018002388
+entry_point_name: ''
+experiment_id: '638130098000272016'
+lifecycle_stage: active
+run_id: 33bd4d00819e4db39dbf704a1fcdd08c
+run_name: unruly-mare-840
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760017997477
+status: 3
+tags: []
+user_id: lenovo
